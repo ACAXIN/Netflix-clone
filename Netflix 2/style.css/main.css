@@ -1,0 +1,113 @@
+:root{
+    --red:#E50914;
+    --black:#141414;
+
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+/* elementos base */
+
+body{
+    background: var(--black);
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+header .logo{
+    margin-left:5px;
+    color: var(--red);
+    font-family: 'Arial Black';
+    font-size: 40px;
+
+}
+
+header nav a{
+    text-decoration: none;
+    color:#AAA;
+    margin-right: 10px;
+
+}
+
+header nav a:hover{
+    color:#fff;
+}
+
+/*filme principal*/
+
+.filme-principal{
+    font-size:16px;
+    background-image:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../imagem/lallorona4.jpg');
+    
+
+   height: 400px;
+   background-size:cover;
+   
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+
+
+
+ 
+}
+
+.filme-principal .descricao{
+    margin-bottom: 40px;
+    margin-top: 10px;
+    margin-right: 50%;
+    text-align: justify ;
+    
+}
+
+
+.titulo{
+    
+    font-size:40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', Arial, sans-serif;
+
+}
+
+.container{
+    margin-left: 30px;
+}
+
+.box-filme{
+    width: 100%;
+    height: 100%;
+    display: block;
+    
+}
+
+.carrosel-filmes{
+    margin-top:20px;
+
+}
+.escolhas{
+    margin-top: 30px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.texto{
+    font-size: 16px;
+}
+
+.final{
+    margin-top: 100px;
+}
